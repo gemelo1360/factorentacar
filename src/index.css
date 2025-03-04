@@ -1,0 +1,23 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #092642;
+  color: white;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+
+/* Estilos adicionales que no interfieren con Bootstrap */
+.cursor-pointer {
+  cursor: pointer;
+}

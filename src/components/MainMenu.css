@@ -1,0 +1,76 @@
+.main-menu-container {
+  margin-top: 2rem;
+}
+
+.main-menu-button {
+  background-color: #092642 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 10px !important;
+  transition: all 0.3s ease !important;
+  height: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.main-menu-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2) !important;
+  background-color: #0d3a5f !important;
+}
+
+.menu-icon {
+  font-size: 2.5rem;
+}
+
+.menu-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.search-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 50px;
+  font-size: 1.1rem;
+}
+
+.search-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #092642;
+  border-color: #092642;
+  font-size: 1.1rem;
+}
+
+.search-button:hover {
+  background-color: #0d3a5f;
+  border-color: #0d3a5f;
+}
+
+.cliente-card:hover {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 576px) {
+  .main-menu-button {
+    height: 120px;
+  }
+  
+  .menu-icon {
+    font-size: 2rem;
+  }
+  
+  .menu-title {
+    font-size: 1rem;
+  }
+  
+  .search-input, .search-button {
+    height: 45px;
+    font-size: 1rem;
+  }
+}
